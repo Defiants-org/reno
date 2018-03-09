@@ -51,7 +51,7 @@
         color: #fff;
         font-weight: 300;
         font-size: 17px;
-        margin: 0 20px 70px 25px;
+        margin: 20px 20px 70px 25px;
         text-align: justify;
     }
 
@@ -116,22 +116,12 @@
 @media only screen and (min-width : 425px) and (max-width : 768px) {
 
 
-  .button.white:hover {
-      background-color: #fff;
-      color: #000;
-  }
+  /* nav. */
 
-/* nav. ////////////////////////////////////////////////////////*/
-
-  .mainmenu-area {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    z-index: 9999999;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-    overflow: hidden;
+  .container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
+      margin-right: -15px;
+      margin-left: -15px;
+      padding-bottom: 20px !important;
   }
 
   .mainmenu-area .navbar-toggle {
@@ -140,566 +130,175 @@
   .mainmenu-area .navbar-toggle .icon-bar {
       background-color: #ffffff;
   }
-  .mainmenu-area {
-background-color: #000;
-  }
-  .mainmenu-area #primary-menu ul {
-      overflow-y: auto;
-      max-height: 70vh;
-      margin: 0;
-  }
-  .mainmenu-area #primary-menu > ul > li > a {
-      padding: 15px;
-      overflow: hidden;
-  }
-  .box {
-      padding: 30px 15px;
-  }
-  .box .box-icon {
-      height: auto;
-  }
-  .single-blog,
-  .single-team,
-  .price-table.active {
-      margin-top: 30px;
-  }
-  .form-double input {
-      width: 100%;
-      color:#000;
-  }
 
-  .footer-top {
-      margin-bottom: 50px;
-  }
-  .x-left {
-      text-align:;
-  }
-  .mainmenu-area .logo {
-      margin-left: 15px;
-  }
-
-  .navbar-brand {
-     width: 60%;
-  }
-
-  .navbar-header, .navbar-collapse {
-   background-color: #000
-  }
+    .navbar-brand {
+       width: 60%;
+    }
 
     .navbar-brand > img {
       display: block;
-      margin-left: 45px;
+      margin-left: 50px;
   }
 
-
-  /* header ///////////////////////////////////////////////////////////////*/
-
-  .header-area {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    height: auto;
-    margin-top: 85px;
-  }
-
-    .header-text .button {
-        margin: 0 0 0 20px;
+    .navbar-header, .navbar-collapse {
+     background-color: #000
     }
 
-    .header-text  {
-  padding: 40px 10px 0 20px;
+    .mainmenu-area {
+    position: fixed;
+    text-align: center;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #000;
+    z-index: 9999999;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    overflow: hidden;
+    font-size: 20px;
+}
 
+    /* header /////////////////////////////////////////////////////*/
+
+
+
+    .header-area {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      height: auto;
+      margin-top: 75px;
+      /* to change bg img in media query use online root */
+      background: #000000 url('http://res.cloudinary.com/liberationfront/image/upload/v1520587700/mq_bg_tdxpyl.jpg')no-repeat scroll center center / cover;
+      z-index: 2;
+
+
+
+      }
+
+
+      header img {
+          margin: 20px 5px 20px 200px;
+          width: 40%;
+          margin-bottom: 50px;
+      }
+
+
+  .header-text .button {
+      margin: 0 0 0 20px;
   }
+
+  .header-text {
+      background-color: rgba(84,84,84,0.3);
+      color: #000;
+      margin-top: -30px;
+      padding-bottom: 25px;
+      margin-right: -30px;
+  }
+
+
 
   .bahn1 {
-      position: relative;
-      margin: 25px 0 30px 0;
-      top: 50px;
-      left: 20px;
-      font-family: 'Bahnschrift', sans-serif;
-      font-weight: 300;
-      font-size: 32px;
-      text-transform: uppercase;
-      color: #fff;
-    }
-
-  .bahn2 {
-    position: relative;
-      margin: 50px 0 30px 0;
-      top: 30px;
-      left: 25px;
-      padding-right: 75px;
-      font-family: 'Bahnschrift', sans-serif;
-      font-weight: 300;
-      font-size: 17px;
-      color: #fff;
-    }
-
-  /* service secttion///////////////////////////////////////////////////////////*/
-
-  .h1-strategie, .h1-marketing, .h1-design, .h1-ux, .h1-acc, .h1-dev {
   position: relative;
-  top: 215px;
-  left: 25px;
+  margin: -50px 0 30px 0;
+  top: 65px;
+  left: 220px;
   font-family: 'Bahnschrift', sans-serif;
   font-weight: 300;
-  font-size: 30px;
+  font-size: 25px;
   text-transform: uppercase;
-  color: #000;
-  }
+  color: #fff;
 
-  .p-strategie, .p-marketing, .p-design, .p-ux, .p-acc, .p-dev {
-  position: relative;
-  margin: 25px 0 50px 0;
-  top: 200px;
-  left: 50px;
-  padding-right: 75px;
-  font-family: 'Bahnschrift', sans-serif;
-  font-weight: 300;
-  font-size: 15px;
-  color: #000;
-  }
+        }
 
-  .services .button {
-      margin: 200px 0 0 50px;
-  }
-
-  .sc5 a {
-      padding: 25px 75px;
-  }
-
-  /* badkamer ///////////////////////////////////////////////////////*/
-
-  #feature-page {
-      padding: 70px 0 70px 0;
-      width: 100%;
-      outline: none !important;
-  }
-
-  #feature-page .col-md-8  {
-      padding: 35px 0 0 0;
-  }
-
-  #feature-page p  {
-      color: #fff;
-      font-weight: 300;
-      font-size: 15px;
-      margin: 0 100px 40px 25px;
-      text-align: justify;
-  }
-
-   #feature-page .img1   {
-      font-size: 18px;
-      margin-top: 20px;
-
-  }
-
-   #feature-page .img2  {
-      font-size: 18px;
-      margin-top: 20px;
-
-    }
-
-  #feature-page .img3   {
-      font-size: 18px;
-      margin-top: 50px;
-    }
-
-
-      .side-icon-boxes {
-
-          color: #000 !important;
+        .h3 {
+          position: relative;
+          top: 65px;
+          left: 220px;
           font-family: 'Bahnschrift', sans-serif;
           font-weight: 300;
           font-size: 20px;
-          margin-top: 100px;
-          margin-bottom:;
+          color: #fff;
       }
 
-      .side-icon-box {
-          margin-bottom: 30px;
-          position: relative;
-          padding-right: 120px;
-          padding-left: 50px;
-      }
-
-
-    .footer-top {
-      margin-bottom: 0;
-    }
-
-    .footer-middle {
-      margin-bottom: 0;
-    }
-
-    .footer-bottom p {
-
-    color: #000;
-
-    }
-
-    .social-menu {
-      list-style: none;
-      margin: 0;
-      padding: 10px 100px 0 0 ;
-    }
-
-    .social-menu li {
-      display: inline-block;
-      margin: 0 3px;
-    }
-
-    .social-menu li a {
-      display: block;
-      width: 60px;
-      height: 60px;
-      text-align: center;
-      line-height: 2.5em;
-      background-color: #000;
-      color: #fff;
-      border-radius: 100px;
-      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
-      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
-      font-size: 25px;
-    }
-
-    .social-menu li a:hover {
-      background-color: #fff;
-      color: #000;
-      -webkit-box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.1);
-      box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.1);
-    }
-
-
-    textarea {
-        overflow: auto;
-        padding: 50px 286px;
-    }
-
-
-
-
-}
-
-
-/* Mobile Layout: max-width: 425px. ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-
-
-@media only screen and (min-width : 375px) and (max-width : 425px) {
-
-/* nav. */
-
-.mainmenu-area .navbar-toggle {
-    margin-top: 20px;
-}
-.mainmenu-area .navbar-toggle .icon-bar {
-    background-color: #ffffff;
-}
-
- .navbar-brand {
-    width: 60%;
- }
-
- .navbar-brand > img {
-   display: block;
-   margin-left: 60px;
-}
-
-.navbar-header, .navbar-collapse {
-  background-color: #000
-}
-
-  /* header /////////////////////////////////////////////////////////////*/
-
-
-.header-area {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  height: auto;
-  margin-top: 85px;
-}
-
-.header-text .button {
-    margin: 0 0 0 20px;
-}
-
-
-.header-text {
-  padding: 0 10px 0 20px;
-}
-
-.bahn1 {
-
-    position: relative;
-    margin: 25px 0 30px 0;
-    top: 50px;
-    left: 20px;
-    font-family: 'Bahnschrift', sans-serif;
-    font-weight: 300;
-    font-size: 30px;
-    text-transform: uppercase;
-    color: #fff;
-
-  }
-
-.bahn2 {
-  position: relative;
-    margin: 50px 0 30px 0;
-    top: 30px;
-    left: 25px;
-    padding-right: 75px;
-    font-family: 'Bahnschrift', sans-serif;
-    font-weight: 300;
-    font-size: 15px;
-    color: #fff;
-
-  }
-
-    /* service section /////////////////////////////////////////////////////*/
-
-.h1-strategie, .h1-marketing, .h1-design, .h1-ux, .h1-acc, .h1-dev {
-  position: relative;
-  top: 215px;
-  left: 50px;
-  font-family: 'Bahnschrift', sans-serif;
-  font-weight: 300;
-  font-size: 30px;
-  text-transform: uppercase;
-  color: #000;
-}
-
-.p-strategie, .p-marketing, .p-design, .p-ux, .p-acc, .p-dev {
-  position: relative;
-  margin: 25px 0 50px 0;
-  top: 200px;
-  left: 50px;
-  padding-right: 75px;
-  font-family: 'Bahnschrift', sans-serif;
-  font-weight: 300;
-  font-size: 15px;
-  color: #000;
-}
-
-.services .button {
-    margin: 200px 0 0 50px;
-}
-
-.sc5 a {
-    padding: 25px 75px;
-}
-
-/* badkamer ///////////////////////////////////////////////////////*/
-
-#feature-page {
-    padding: 70px 0 70px 0;
-    width: 100%;
-    outline: none !important;
-}
-
-#feature-page .col-md-8  {
-    padding: 35px 0 0 0;
-}
-
-#feature-page p  {
-    color: #fff;
-    font-weight: 300;
-    font-size: 15px;
-    margin: 0 25px 40px 25px;
-    text-align: justify;
-}
-
- #feature-page .img1   {
-    font-size: 18px;
-    margin-top: 20px;
-
-}
-
- #feature-page .img2  {
-    font-size: 18px;
-    margin-top: 20px;
-
-  }
-
-#feature-page .img3   {
-    font-size: 18px;
-    margin-top: 50px;
-  }
-
-  .side-icon-boxes {
-
-      color: #000 !important;
-      font-family: 'Bahnschrift', sans-serif;
-      font-weight: 300;
-      font-size: 20px;
-      margin-top: 100px;
-      margin-bottom:;
-  }
-
-
-
-.footer-top {
-  margin-bottom: 0;
-}
-
-.footer-middle {
-  margin-bottom: 0;
-}
-
-.footer-bottom p {
-
-color: #000;
-
-}
-
-.social-menu {
-  list-style: none;
-  margin: 0;
-  padding: 10px 170px 0 0 ;
-}
-
-.social-menu li {
-  display: inline-block;
-  margin: 0 3px;
-}
-
-.social-menu li a {
-  display: block;
-  width: 60px;
-  height: 60px;
-  text-align: center;
-  line-height: 2.5em;
-  background-color: #000;
-  color: #fff;
-  border-radius: 100px;
-  -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
-  font-size: 25px;
-}
-
-.social-menu li a:hover {
-  background-color: #fff;
-  color: #000;
-  -webkit-box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.1);
-}
-
-
-.form-double input {
-    width: 100%;
-    color:#000;
-}
-
-textarea {
-    overflow: auto;
-    padding: 50px 123px;
-}
-
-
-}
-
-/* Mobile Layout: max-width: 375px. /////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-
-@media only screen and (min-width: 320px) and (max-width: 375px) {
-
-/* nav. ///////////////////////////////////////////////////////////////*/
-
-.mainmenu-area .navbar-toggle {
-    margin-top: 20px;
-}
-.mainmenu-area .navbar-toggle .icon-bar {
-    background-color: #ffffff;
-}
-
-.navbar-brand {
-   width: 60%;
-}
-
-.navbar-header, .navbar-collapse {
- background-color: #000
-}
-
-
-  .navbar-brand > img {
-    display: block;
-    margin-left: 60px;
-}
-
-
-  /* header ////////////////////////////////////////////////////////////*/
-
-
-  .header-area {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    height: auto;
-    margin-top: 80px;
-}
-
-.header-text .button {
-    margin: 0 0 0 20px;
-}
-
-  .header-text {
-    padding: 0 10px 0 20px;
-}
-
-    .bahn1 {
-
+      .bahn2 {
         position: relative;
-        margin: 25px 0 30px 0;
-        top: 50px;
-        left: 10px;
-        font-family: 'Bahnschrift', sans-serif;
-        font-weight: 300;
-        font-size: 30px;
-        text-transform: uppercase;
-        color: #fff;
+          margin: 50px 0 30px 0;
+          top: 0px;
+          left: 25px;
+          padding-right: 50px;
+          font-family: 'Bahnschrift', sans-serif;
+          font-weight: 310;
+          font-size: 15px;
+          color: #fff;
 
+        }
+
+        .anlge-bg {
+
+      z-index: 2;
+  }
+
+      /* service section ///////////////////////////////////////////////////////*/
+
+      .services {
+      background-color: #ffffff;
+      margin-top: -0px;
+      padding-bottom: 50px;
+  }
+
+      .diamond-narrow {
+        width: 0;
+        height: 0;
+        border: 500px solid transparent;
+        border-bottom: 751px solid #FF0000;
+        position: relative;
+        left: -500px;
+        top: -950px;
+        opacity: 0.7;
+        z-index: -1;
       }
-
-    .bahn2 {
-      position: relative;
-        margin: 50px 0 30px 0;
-        top: 30px;
-        left: 25px;
-        padding-right: 75px;
-        font-family: 'Bahnschrift', sans-serif;
-        font-weight: 300;
-        font-size: 15px;
-        color: #fff;
-
+      .diamond-narrow:after {
+        content: '';
+        position: absolute;
+        left: -500px;
+        top: 750px;
+        width: 0;
+        height: 0;
+        border: 500px solid transparent;
+        border-top: 750px solid #FF0000;
+        z-index: -1;
       }
-
-    /* service section ////////////////////////////////////////////////////*/
 
     .h1-strategie, .h1-marketing, .h1-design, .h1-ux, .h1-acc, .h1-dev {
-      position: relative;
-      top: 215px;
-      left: 50px;
-      font-family: 'Bahnschrift', sans-serif;
-      font-weight: 300;
-      font-size: 30px;
-      text-transform: uppercase;
-      color: #000;
+     position: relative;
+     top: 215px;
+     left: 25px;
+     font-family: 'Bahnschrift', sans-serif;
+     font-weight: 300;
+     font-size: 30px;
+     text-transform: uppercase;
+     color: #000;
     }
 
     .p-strategie, .p-marketing, .p-design, .p-ux, .p-acc, .p-dev {
-      position: relative;
-      margin: 25px 0 50px 0;
-      top: 200px;
-      left: 50px;
-      padding-right: 75px;
-      font-family: 'Bahnschrift', sans-serif;
-      font-weight: 300;
-      font-size: 15px;
-      color: #000;
+     position: relative;
+     margin: 25px 0 50px 0;
+     top: 200px;
+     left: 50px;
+     padding-right: 75px;
+     font-family: 'Bahnschrift', sans-serif;
+     font-weight: 300;
+     font-size: 15px;
+     color: #000;
+     text-align: justify;
     }
 
     .services .button {
-        margin: 200px 0 0 35px;
+        margin: 200px 0 0 50px;
     }
 
     .sc5 a {
-        padding: 25px 75px;
+        padding: 15px 65px;
     }
 
     /* badkamer ///////////////////////////////////////////////////////*/
@@ -722,21 +321,36 @@ textarea {
         text-align: justify;
     }
 
+    #feature-page .kutija1 p {
+      color: #fff;
+      font-weight: 300;
+      font-size: 15px;
+      margin: 0 25px 40px 0px;
+      text-align: justify;
+      margin-left: 25px !important;
+    }
+
+    #feature-page .row {
+      margin-top: 5px;
+  }
+
      #feature-page .img1   {
         font-size: 18px;
         margin-top: 20px;
+            width: 70%;
 
     }
 
      #feature-page .img2  {
         font-size: 18px;
         margin-top: 20px;
-
+  width: 70%;
       }
 
     #feature-page .img3   {
         font-size: 18px;
         margin-top: 50px;
+          width: 70%;
       }
 
       .side-icon-boxes {
@@ -750,74 +364,90 @@ textarea {
       }
 
 
+      .sd1 {
 
-    .footer-top {
+          right: 100px;
+      }
+
+      .sd2 {
+
+          left: 50px;
+      }
+
+  .footer-top {
       margin-bottom: 0;
-    }
+  }
 
-    .footer-middle {
+  .footer-middle {
       margin-bottom: 0;
-    }
+  }
 
-    .footer-bottom p {
+  .footer-bottom p {
+  margin-bottom: 0;
 
-    color: #000;
+  color: #fff;
 
-    }
+  }
 
-    .social-menu {
+  .social-menu {
       list-style: none;
       margin: 0;
-      padding: 10px 150px 0 0 ;
-    }
+      padding: 10px 100px 0 0 ;
+  }
 
-    .social-menu li {
+  .social-menu li {
       display: inline-block;
       margin: 0 3px;
-    }
+  }
 
-    .social-menu li a {
+  .social-menu li a {
       display: block;
       width: 60px;
       height: 60px;
       text-align: center;
       line-height: 2.5em;
-      background-color: #000;
-      color: #fff;
+      background-color: #fff;
+      color: #000;
       border-radius: 100px;
       -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
       box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
       font-size: 25px;
-    }
+  }
 
-    .social-menu li a:hover {
-      background-color: #fff;
-      color: #000;
+  .social-menu li a:hover {
+      background-color: #000;
+      color: #fff;
       -webkit-box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.1);
       box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.1);
-    }
+  }
 
-    .form-double input {
-        width: 100%;
-        color:#000;
-    }
+  .form-double input {
+      width: 100%;
+      color:#000;
+  }
 
-    textarea {
-    overflow: auto;
-    padding: 50px 99px;
+  textarea {
+      overflow: auto;
+      padding: 50px 72px;
+  }
+
+
+
 }
 
 
-}
+/* Mobile Layout: max-width: 425px. ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 
-
-/* Mobile Layout: max-width: 320px. ///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-
-
-@media only screen and (max-width : 320px) {
+@media only screen and (min-width : 375px) and (max-width : 425px) {
 
 /* nav. */
+
+.container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-bottom: 20px !important;
+}
 
 .mainmenu-area .navbar-toggle {
     margin-top: 20px;
@@ -841,27 +471,47 @@ textarea {
 
   /* header /////////////////////////////////////////////////////*/
 
+
+
   .header-area {
     padding-top: 20px;
     padding-bottom: 20px;
     height: auto;
     margin-top: 75px;
-}
+    /* to change bg img in media query use online root */
+    background: #000000 url('http://res.cloudinary.com/liberationfront/image/upload/v1520587700/mq_bg_tdxpyl.jpg')no-repeat scroll center center / cover;
+    z-index: 2;
+
+
+    }
+
+
+    header img {
+        margin: 20px 5px 20px 80px;
+        width: 60%;
+        margin-bottom: 50px;
+    }
+
 
 .header-text .button {
     margin: 0 0 0 20px;
 }
 
-  .header-text {
-    padding: 0 10px 0 20px;
+.header-text {
+    background-color: rgba(84,84,84,0.3);
+    color: #000;
+    margin-top: -30px;
+    padding-bottom: 25px;
+    margin-right: -30px;
 }
+
 
 
 .bahn1 {
 position: relative;
-margin: 25px 0 30px 0;
+margin: -50px 0 30px 0;
 top: 65px;
-left: 20px;
+left: 70px;
 font-family: 'Bahnschrift', sans-serif;
 font-weight: 300;
 font-size: 25px;
@@ -870,14 +520,24 @@ color: #fff;
 
       }
 
+      .h3 {
+        position: relative;
+        top: 65px;
+        left: 70px;
+        font-family: 'Bahnschrift', sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        color: #fff;
+    }
+
     .bahn2 {
       position: relative;
         margin: 50px 0 30px 0;
-        top: 30px;
+        top: 0px;
         left: 25px;
-        padding-right: 75px;
+        padding-right: 50px;
         font-family: 'Bahnschrift', sans-serif;
-        font-weight: 300;
+        font-weight: 310;
         font-size: 15px;
         color: #fff;
 
@@ -890,11 +550,17 @@ color: #fff;
 
     /* service section ///////////////////////////////////////////////////////*/
 
+    .services {
+    background-color: #ffffff;
+    margin-top: -0px;
+    padding-bottom: 50px;
+}
+
     .diamond-narrow {
       width: 0;
       height: 0;
       border: 500px solid transparent;
-      border-bottom: 751px solid #c8ab37ff;
+      border-bottom: 751px solid #FF0000;
       position: relative;
       left: -500px;
       top: -950px;
@@ -909,7 +575,7 @@ color: #fff;
       width: 0;
       height: 0;
       border: 500px solid transparent;
-      border-top: 750px solid #c8ab37ff;
+      border-top: 750px solid #FF0000;
       z-index: -1;
     }
 
@@ -965,6 +631,19 @@ color: #fff;
       text-align: justify;
   }
 
+  #feature-page .kutija1 p {
+    color: #fff;
+    font-weight: 300;
+    font-size: 15px;
+    margin: 0 25px 40px 0px;
+    text-align: justify;
+    margin-left: 25px !important;
+  }
+
+  #feature-page .row {
+    margin-top: 5px;
+}
+
    #feature-page .img1   {
       font-size: 18px;
       margin-top: 20px;
@@ -1003,8 +682,607 @@ color: #fff;
 }
 
 .footer-bottom p {
+margin-bottom: 0;
 
-color: #000;
+color: #fff;
+
+}
+
+.social-menu {
+    list-style: none;
+    margin: 0;
+    padding: 10px 185px 0 0 ;
+}
+
+.social-menu li {
+    display: inline-block;
+    margin: 0 3px;
+}
+
+.social-menu li a {
+    display: block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 2.5em;
+    background-color: #000;
+    color: #fff;
+    border-radius: 100px;
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
+    font-size: 25px;
+}
+
+.social-menu li a:hover {
+    background-color: #fff;
+    color: #000;
+    -webkit-box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.form-double input {
+    width: 100%;
+    color:#000;
+}
+
+textarea {
+    overflow: auto;
+    padding: 50px 72px;
+}
+
+
+}
+
+/* Mobile Layout: max-width: 375px. /////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+
+/* nav. ///////////////////////////////////////////////////////////////*/
+
+.container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-bottom: 20px !important;
+}
+
+.mainmenu-area .navbar-toggle {
+    margin-top: 20px;
+}
+.mainmenu-area .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+
+  .navbar-brand {
+     width: 60%;
+  }
+
+  .navbar-brand > img {
+    display: block;
+    margin-left: 50px;
+}
+
+  .navbar-header, .navbar-collapse {
+   background-color: #000
+  }
+
+  /* header /////////////////////////////////////////////////////*/
+
+
+
+  .header-area {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: auto;
+    margin-top: 75px;
+    /* to change bg img in media query use online root */
+    background: #000000 url('http://res.cloudinary.com/liberationfront/image/upload/v1520587700/mq_bg_tdxpyl.jpg')no-repeat scroll center center / cover;
+    z-index: 2;
+
+
+    }
+
+
+    header img {
+        margin: 20px 5px 20px 40px;
+        width: 80%;
+        margin-bottom: 50px;
+    }
+
+
+.header-text .button {
+    margin: 0 0 0 20px;
+}
+
+.header-text {
+    background-color: rgba(84,84,84,0.3);
+    color: #000;
+    margin-top: -30px;
+    padding-bottom: 25px;
+    margin-right: -30px;
+}
+
+
+
+.bahn1 {
+position: relative;
+margin: -50px 0 30px 0;
+top: 65px;
+left: 40px;
+font-family: 'Bahnschrift', sans-serif;
+font-weight: 300;
+font-size: 25px;
+text-transform: uppercase;
+color: #fff;
+
+      }
+
+      .h3 {
+        position: relative;
+        top: 65px;
+        left: 40px;
+        font-family: 'Bahnschrift', sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        color: #fff;
+    }
+
+    .bahn2 {
+      position: relative;
+        margin: 50px 0 30px 0;
+        top: 0px;
+        left: 25px;
+        padding-right: 50px;
+        font-family: 'Bahnschrift', sans-serif;
+        font-weight: 310;
+        font-size: 15px;
+        color: #fff;
+
+      }
+
+      .anlge-bg {
+
+    z-index: 2;
+}
+
+    /* service section ///////////////////////////////////////////////////////*/
+
+    .services {
+    background-color: #ffffff;
+    margin-top: -0px;
+    padding-bottom: 50px;
+}
+
+    .diamond-narrow {
+      width: 0;
+      height: 0;
+      border: 500px solid transparent;
+      border-bottom: 751px solid #FF0000;
+      position: relative;
+      left: -500px;
+      top: -950px;
+      opacity: 0.7;
+      z-index: -1;
+    }
+    .diamond-narrow:after {
+      content: '';
+      position: absolute;
+      left: -500px;
+      top: 750px;
+      width: 0;
+      height: 0;
+      border: 500px solid transparent;
+      border-top: 750px solid #FF0000;
+      z-index: -1;
+    }
+
+  .h1-strategie, .h1-marketing, .h1-design, .h1-ux, .h1-acc, .h1-dev {
+   position: relative;
+   top: 215px;
+   left: 25px;
+   font-family: 'Bahnschrift', sans-serif;
+   font-weight: 300;
+   font-size: 30px;
+   text-transform: uppercase;
+   color: #000;
+  }
+
+  .p-strategie, .p-marketing, .p-design, .p-ux, .p-acc, .p-dev {
+   position: relative;
+   margin: 25px 0 50px 0;
+   top: 200px;
+   left: 50px;
+   padding-right: 75px;
+   font-family: 'Bahnschrift', sans-serif;
+   font-weight: 300;
+   font-size: 15px;
+   color: #000;
+   text-align: justify;
+  }
+
+  .services .button {
+      margin: 200px 0 0 50px;
+  }
+
+  .sc5 a {
+      padding: 15px 65px;
+  }
+
+  /* badkamer ///////////////////////////////////////////////////////*/
+
+  #feature-page {
+      padding: 70px 0 70px 0;
+      width: 100%;
+      outline: none !important;
+  }
+
+  #feature-page .col-md-8  {
+      padding: 35px 0 0 0;
+  }
+
+  #feature-page p  {
+      color: #fff;
+      font-weight: 300;
+      font-size: 15px;
+      margin: 0 25px 40px 25px;
+      text-align: justify;
+  }
+
+  #feature-page .kutija1 p {
+    color: #fff;
+    font-weight: 300;
+    font-size: 15px;
+    margin: 0 25px 40px 0px;
+    text-align: justify;
+    margin-left: 25px !important;
+  }
+
+  #feature-page .row {
+    margin-top: 5px;
+}
+
+   #feature-page .img1   {
+      font-size: 18px;
+      margin-top: 20px;
+
+  }
+
+   #feature-page .img2  {
+      font-size: 18px;
+      margin-top: 20px;
+
+    }
+
+  #feature-page .img3   {
+      font-size: 18px;
+      margin-top: 50px;
+    }
+
+    .side-icon-boxes {
+
+        color: #000 !important;
+        font-family: 'Bahnschrift', sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        margin-top: 100px;
+        margin-bottom:;
+    }
+
+
+
+.footer-top {
+    margin-bottom: 0;
+}
+
+.footer-middle {
+    margin-bottom: 0;
+}
+
+.footer-bottom p {
+margin-bottom: -6px;
+
+color: #fff;
+
+}
+
+.social-menu {
+    list-style: none;
+    margin: 0;
+    padding: 10px 160px 0 0 ;
+}
+
+.social-menu li {
+    display: inline-block;
+    margin: 0 3px;
+}
+
+.social-menu li a {
+    display: block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 2.5em;
+    background-color: #000;
+    color: #fff;
+    border-radius: 100px;
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
+    font-size: 25px;
+}
+
+.social-menu li a:hover {
+    background-color: #fff;
+    color: #000;
+    -webkit-box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.form-double input {
+    width: 100%;
+    color:#000;
+}
+
+textarea {
+    overflow: auto;
+    padding: 50px 72px;
+}
+
+
+
+}
+
+
+
+/* Mobile Layout: max-width: 320px. ///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+@media only screen and (max-width : 320px) {
+
+/* nav. */
+
+
+.container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-bottom: 20px !important;
+}
+
+.mainmenu-area .navbar-toggle {
+    margin-top: 20px;
+}
+.mainmenu-area .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+
+  .navbar-brand {
+     width: 60%;
+  }
+
+  .navbar-brand > img {
+    display: block;
+    margin-left: 50px;
+}
+
+  .navbar-header, .navbar-collapse {
+   background-color: #000
+  }
+
+  /* header /////////////////////////////////////////////////////*/
+
+
+
+  .header-area {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: auto;
+    margin-top: 75px;
+    /* to change bg img in media query use online root */
+    background: #000000 url('http://res.cloudinary.com/liberationfront/image/upload/v1520587700/mq_bg_tdxpyl.jpg')no-repeat scroll center center / cover;
+    z-index: 2;
+
+
+    }
+
+
+    header img {
+        margin: 20px 5px 20px 30px;
+        width: 80%;
+        margin-bottom: 50px;
+    }
+
+
+.header-text .button {
+    margin: 0 0 0 20px;
+}
+
+.header-text {
+    background-color: rgba(84,84,84,0.3);
+    color: #000;
+    margin-top: -30px;
+    padding-bottom: 25px;
+    margin-right: -30px;
+}
+
+
+
+.bahn1 {
+position: relative;
+margin: -50px 0 30px 0;
+top: 65px;
+left: 15px;
+font-family: 'Bahnschrift', sans-serif;
+font-weight: 300;
+font-size: 25px;
+text-transform: uppercase;
+color: #fff;
+
+      }
+
+      .h3 {
+        position: relative;
+        top: 65px;
+        left: 10px;
+        font-family: 'Bahnschrift', sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        color: #fff;
+    }
+
+    .bahn2 {
+      position: relative;
+        margin: 50px 0 30px 0;
+        top: 0px;
+        left: 25px;
+        padding-right: 50px;
+        font-family: 'Bahnschrift', sans-serif;
+        font-weight: 310;
+        font-size: 15px;
+        color: #fff;
+
+      }
+
+      .anlge-bg {
+
+    z-index: 2;
+}
+
+    /* service section ///////////////////////////////////////////////////////*/
+
+    .services {
+    background-color: #ffffff;
+    margin-top: -0px;
+    padding-bottom: 50px;
+}
+
+    .diamond-narrow {
+      width: 0;
+      height: 0;
+      border: 500px solid transparent;
+      border-bottom: 751px solid #FF0000;
+      position: relative;
+      left: -500px;
+      top: -950px;
+      opacity: 0.7;
+      z-index: -1;
+    }
+    .diamond-narrow:after {
+      content: '';
+      position: absolute;
+      left: -500px;
+      top: 750px;
+      width: 0;
+      height: 0;
+      border: 500px solid transparent;
+      border-top: 750px solid #FF0000;
+      z-index: -1;
+    }
+
+  .h1-strategie, .h1-marketing, .h1-design, .h1-ux, .h1-acc, .h1-dev {
+   position: relative;
+   top: 215px;
+   left: 25px;
+   font-family: 'Bahnschrift', sans-serif;
+   font-weight: 300;
+   font-size: 30px;
+   text-transform: uppercase;
+   color: #000;
+  }
+
+  .p-strategie, .p-marketing, .p-design, .p-ux, .p-acc, .p-dev {
+   position: relative;
+   margin: 25px 0 50px 0;
+   top: 200px;
+   left: 50px;
+   padding-right: 75px;
+   font-family: 'Bahnschrift', sans-serif;
+   font-weight: 300;
+   font-size: 15px;
+   color: #000;
+   text-align: justify;
+  }
+
+  .services .button {
+      margin: 200px 0 0 50px;
+  }
+
+  .sc5 a {
+      padding: 15px 65px;
+  }
+
+  /* badkamer ///////////////////////////////////////////////////////*/
+
+  #feature-page {
+      padding: 70px 0 70px 0;
+      width: 100%;
+      outline: none !important;
+  }
+
+  #feature-page .col-md-8  {
+      padding: 35px 0 0 0;
+  }
+
+  #feature-page p  {
+      color: #fff;
+      font-weight: 300;
+      font-size: 15px;
+      margin: 0 25px 40px 25px;
+      text-align: justify;
+  }
+
+  #feature-page .kutija1 p {
+    color: #fff;
+    font-weight: 300;
+    font-size: 15px;
+    margin: 0 25px 40px 0px;
+    text-align: justify;
+    margin-left: 25px !important;
+  }
+
+  #feature-page .row {
+    margin-top: 5px;
+}
+
+   #feature-page .img1   {
+      font-size: 18px;
+      margin-top: 20px;
+
+  }
+
+   #feature-page .img2  {
+      font-size: 18px;
+      margin-top: 20px;
+
+    }
+
+  #feature-page .img3   {
+      font-size: 18px;
+      margin-top: 50px;
+    }
+
+    .side-icon-boxes {
+
+        color: #000 !important;
+        font-family: 'Bahnschrift', sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        margin-top: 100px;
+        margin-bottom:;
+    }
+
+
+
+.footer-top {
+    margin-bottom: 0;
+}
+
+.footer-middle {
+    margin-bottom: 0;
+}
+
+.footer-bottom p {
+margin-bottom: -6px;
+
+color: #fff;
 
 }
 
