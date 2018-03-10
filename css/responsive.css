@@ -43,6 +43,10 @@
         outline: none !important;
     }
 
+    #feature-page .row {
+    margin-top: 10px;
+}
+
     #feature-page .col-md-8  {
         padding: 35px 0 0 0;
     }
@@ -70,6 +74,24 @@
     #feature-page .img3   {
         font-size: 18px;
         margin-top: 50px;
+      }
+
+      #feature-page .p1 {
+
+      margin-top: -38px;
+
+       }
+
+      #feature-page .p2 {
+
+      margin-top: -39px;
+
+      }
+
+      #feature-page .p3 {
+
+      margin-top: -8px;
+
       }
 
 
@@ -106,6 +128,95 @@
           overflow: auto;
           padding: 50px 234px;
       }
+
+      .footer-top {
+    margin-bottom: 50px;
+}
+
+
+            .sd1 {
+                margin-top: 100px;
+                right: 100px;
+            }
+
+            .sd2 {
+                margin-top: 100px;
+                left: 50px;
+            }
+
+            .social-menu {
+                list-style: none;
+                margin: 0;
+                padding: 0px 0px 0 0 ;
+            }
+
+            .social-menu li {
+                display: inline-block;
+                margin: 0 3px;
+            }
+
+            .social-menu li a {
+                display: block;
+                width: 80px;
+                height: 80px;
+                text-align: center;
+                line-height: 2.5em;
+                background-color: #fff;
+                color: #000;
+                border-radius: 100px;
+                -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
+                box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
+                font-size: 40px;
+            }
+
+            .social-menu li a:hover {
+                background-color: #000;
+                color: #fff;
+                -webkit-box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.1);
+                box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.1);
+            }
+
+            .form-double input {
+                width: 100%;
+                color:#000;
+            }
+
+            textarea {
+                overflow: auto;
+                padding: 50px 72px;
+            }
+
+
+      /* FAQ ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+      #faq-page h1 {
+
+        margin-left: 40px;
+
+
+      }
+
+      #faq-page h3 {
+
+        font-weight: 350;
+        font-size: 20px;
+        margin-right: 40px;
+        margin-left: 40px;
+        text-align: justify;
+
+      }
+
+      #faq-page p {
+
+        font-weight: 300;
+        font-size: 15px;
+        margin-right: 40px;
+        margin-left: 40px;
+        text-align: justify;
+
+      }
+
 
 }
 
@@ -334,24 +445,49 @@
       margin-top: 5px;
   }
 
-     #feature-page .img1   {
-        font-size: 18px;
-        margin-top: 20px;
-            width: 70%;
+  #feature-page .img1   {
+     font-size: 18px;
+     margin-top: 20px;
+     margin-left: 40px;
+     width: 95%;
 
-    }
+  }
 
-     #feature-page .img2  {
-        font-size: 18px;
-        margin-top: 20px;
-  width: 70%;
-      }
+  #feature-page .img2  {
+     font-size: 18px;
+     margin-top: 20px;
+     margin-left: 40px;
+     width: 95%;
 
-    #feature-page .img3   {
-        font-size: 18px;
-        margin-top: 50px;
-          width: 70%;
-      }
+   }
+
+  #feature-page .img3   {
+     font-size: 18px;
+     margin-top: 50px;
+     margin-left: 40px;
+     width: 95%;
+   }
+
+  #feature-page .p1 {
+
+  margin-top: 10px;
+  margin: 0 35px 0 30px
+
+  }
+
+  #feature-page .p2 {
+
+  margin-top: 10px;
+    margin: 0 35px 0 30px
+
+  }
+
+  #feature-page .p3 {
+
+  margin-top: 10px;
+    margin: 0 35px 0 30px
+
+  }
 
       .side-icon-boxes {
 
@@ -359,7 +495,7 @@
           font-family: 'Bahnschrift', sans-serif;
           font-weight: 300;
           font-size: 20px;
-          margin-top: 100px;
+          margin-top: 20px;
           margin-bottom:;
       }
 
@@ -392,7 +528,7 @@
   .social-menu {
       list-style: none;
       margin: 0;
-      padding: 10px 100px 0 0 ;
+      padding: 10px 60px 0 0 ;
   }
 
   .social-menu li {
@@ -429,6 +565,36 @@
   textarea {
       overflow: auto;
       padding: 50px 72px;
+  }
+
+  /* Faq ///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+  #faq-page h1 {
+
+    margin-left: 40px;
+
+
+  }
+
+  #faq-page h3 {
+
+    font-weight: 350;
+    font-size: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+    text-align: justify;
+
+  }
+
+  #faq-page p {
+
+    font-weight: 300;
+    font-size: 15px;
+    margin-right: 40px;
+    margin-left: 40px;
+    text-align: justify;
+
   }
 
 
@@ -643,23 +809,46 @@ color: #fff;
   #feature-page .row {
     margin-top: 5px;
 }
+#feature-page .img1   {
+   font-size: 18px;
+   margin-top: 20px;
+   margin-left: 10px;
+   width: 95%;
 
-   #feature-page .img1   {
-      font-size: 18px;
-      margin-top: 20px;
+}
 
-  }
+#feature-page .img2  {
+   font-size: 18px;
+   margin-top: 20px;
+   margin-left: 10px;
+   width: 95%;
 
-   #feature-page .img2  {
-      font-size: 18px;
-      margin-top: 20px;
+ }
 
-    }
+#feature-page .img3   {
+   font-size: 18px;
+   margin-top: 50px;
+   margin-left: 10px;
+   width: 95%;
+ }
 
-  #feature-page .img3   {
-      font-size: 18px;
-      margin-top: 50px;
-    }
+#feature-page .p1 {
+
+margin-top: 10px;
+
+}
+
+#feature-page .p2 {
+
+margin-top: 10px;
+
+}
+
+#feature-page .p3 {
+
+margin-top: 10px;
+
+}
 
     .side-icon-boxes {
 
@@ -686,6 +875,16 @@ margin-bottom: 0;
 
 color: #fff;
 
+}
+
+.sd1 {
+
+    right: 0px;
+}
+
+.sd2 {
+
+    left: 0px;
 }
 
 .social-menu {
@@ -728,6 +927,36 @@ color: #fff;
 textarea {
     overflow: auto;
     padding: 50px 72px;
+}
+
+/* Faq ///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+#faq-page h1 {
+
+  margin-left: 40px;
+
+
+}
+
+#faq-page h3 {
+
+  font-weight: 350;
+  font-size: 20px;
+  margin-right: 40px;
+  margin-left: 40px;
+  text-align: justify;
+
+}
+
+#faq-page p {
+
+  font-weight: 300;
+  font-size: 15px;
+  margin-right: 40px;
+  margin-left: 40px;
+  text-align: justify;
+
 }
 
 
@@ -940,22 +1169,45 @@ color: #fff;
     margin-top: 5px;
 }
 
-   #feature-page .img1   {
-      font-size: 18px;
-      margin-top: 20px;
+#feature-page .img1   {
+   font-size: 18px;
+   margin-top: 20px;
+    margin-left: 10px;
+   width: 95%;
 
-  }
+}
 
-   #feature-page .img2  {
-      font-size: 18px;
-      margin-top: 20px;
+#feature-page .img2  {
+   font-size: 18px;
+   margin-top: 20px;
+     margin-left: 10px;
+width: 95%;
+ }
 
-    }
+#feature-page .img3   {
+   font-size: 18px;
+   margin-top: 50px;
+      margin-left: 10px;
+   width: 95%;
+ }
 
-  #feature-page .img3   {
-      font-size: 18px;
-      margin-top: 50px;
-    }
+#feature-page .p1 {
+
+margin-top: 10px;
+
+}
+
+#feature-page .p2 {
+
+margin-top: 10px;
+
+}
+
+#feature-page .p3 {
+
+margin-top: 10px;
+
+}
 
     .side-icon-boxes {
 
@@ -1027,6 +1279,35 @@ textarea {
 }
 
 
+/* Faq ///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+#faq-page h1 {
+
+  margin-left: 30px;
+
+
+}
+
+#faq-page h3 {
+
+  font-weight: 350;
+  font-size: 20px;
+  margin-right: 30px;
+  margin-left: 30px;
+  text-align: justify;
+
+}
+
+#faq-page p {
+
+  font-weight: 300;
+  font-size: 15px;
+  margin-right: 30px;
+  margin-left: 30px;
+  text-align: justify;
+
+}
 
 }
 
@@ -1242,22 +1523,47 @@ color: #fff;
     margin-top: 5px;
 }
 
-   #feature-page .img1   {
-      font-size: 18px;
-      margin-top: 20px;
+#feature-page .img1   {
+   font-size: 18px;
+   margin-top: 20px;
+   margin-left: 10px;
+   width: 95%;
 
-  }
+}
 
-   #feature-page .img2  {
-      font-size: 18px;
-      margin-top: 20px;
+#feature-page .img2  {
+   font-size: 18px;
+   margin-top: 20px;
+   margin-left: 10px;
+   width: 95%;
 
-    }
+ }
 
-  #feature-page .img3   {
-      font-size: 18px;
-      margin-top: 50px;
-    }
+#feature-page .img3   {
+   font-size: 18px;
+   margin-top: 50px;
+   margin-left: 10px;
+   width: 95%;
+ }
+
+#feature-page .p1 {
+
+margin-top: 10px;
+
+}
+
+#feature-page .p2 {
+
+margin-top: 10px;
+
+}
+
+#feature-page .p3 {
+
+margin-top: 10px;
+
+}
+
 
     .side-icon-boxes {
 
@@ -1269,7 +1575,15 @@ color: #fff;
         margin-bottom:;
     }
 
+    .sd1 {
 
+        right: 0px;
+    }
+
+    .sd2 {
+
+        left: 0px;
+    }
 
 .footer-top {
     margin-bottom: 0;
@@ -1328,6 +1642,32 @@ textarea {
     padding: 50px 72px;
 }
 
+#faq-page h1 {
+
+  margin-left: 30px;
+
+
+}
+
+#faq-page h3 {
+
+  font-weight: 350;
+  font-size: 20px;
+  margin-right: 20px;
+  margin-left: 30px;
+  text-align: justify;
+
+}
+
+#faq-page p {
+
+  font-weight: 300;
+  font-size: 15px;
+  margin-right: 20px;
+  margin-left: 30px;
+  text-align: justify;
+
+}
 
 
 }

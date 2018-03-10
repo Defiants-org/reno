@@ -733,6 +733,23 @@ margin-top: 50px;
     margin-top: 50px;
   }
 
+#feature-page .p1 {
+
+margin-top: -38px;
+
+ }
+
+#feature-page .p2 {
+
+margin-top: -39px;
+
+}
+
+#feature-page .p3 {
+
+margin-top: -8px;
+
+}
 
 
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
@@ -1219,4 +1236,15 @@ preloader
         transform: perspective(140px) rotateY(180deg);
         opacity: 0;
     }
+}
+
+/**
+*FAQ
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////**/
+
+
+#faq-page {
+    padding: 100px 0 100px 0;
+    width: 100%;
+    outline: none !important;
 }
