@@ -906,7 +906,7 @@ margin-top: -8px;
 
 .footer-area {
   outline: none !important;
-    padding-top: 100px;
+    padding-top: 120px;
     z-index: 1;
 /*  background: #000000 url('images/bathroom-2132342.jpg') no-repeat scroll center center / cover;*/
 
@@ -923,7 +923,6 @@ margin-top: -8px;
     font-family: 'Bahnschrift', sans-serif;
     font-weight: 300;
     font-size: 20px;
-    margin-top: 50px;
 }
 
 .footer-area h2 {
@@ -1011,32 +1010,9 @@ textarea {
 button, html input[type="button"], input[type="reset"], input[type="submit"] {
     -webkit-appearance: button;
     cursor: pointer;
-    background-color: black;
+    background-color: #000;
+    border: none;
 }
-
-#submit {
-
-
-}
-
-.btn-info {
-    color: #fff !important;
-    background-color: #000 !important;
-    border-color: #000;
-
-  }
-  .btn-info:hover {
-      background-color: #ffffff !important;
-      color: #000 !important;
-      border-color: #fff !important;
-      box-shadow: 2px 5px 20px -5px rgba(0, 0, 0, 1) !important;
-  }
-
-  .btn-info:focus{
-color: #fff !important;
-    background-color: #000 !important;
-    border-color: #000 !important;
-  }
 
 .form-control {
     display: block;
@@ -1057,6 +1033,14 @@ color: #fff !important;
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
 }
+
+.btn-info:hover {
+    background-color: #ffffff !important;
+    color: #000 !important;
+    border-color: #fff !important;
+    box-shadow: 2px 5px 20px -5px rgba(0, 0, 0, 1) !important;
+}
+
 
 /*-----------
 preloader
