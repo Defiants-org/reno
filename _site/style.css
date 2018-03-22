@@ -27,59 +27,6 @@ CSS INDEX
 17. Preloader-css
 -----------------------------------------------------------------------------------*/
 
-/*-----------------
-1 Fix stuck button
-------------------*/
-
-.scrollbar-primary::-webkit-scrollbar {
-  width: 12px;
-  background-color: #F5F5F5; }
-
-  .scrollbar-secondary::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
-  background-color: #aa66cc; }
-
-  .scrollbar {
-      margin-left: 30px;
-      float: left;
-      height: 300px;
-      width: 65px;
-      background: #fff;
-      overflow-y: scroll;
-      margin-bottom: 25px;
-  }
-  .force-overflow {
-      min-height: 450px;
-  }
-
-  .scrollbar-danger::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
-    background-color: #F5F5F5;
-    border-radius: 10px; }
-
-  .scrollbar-danger::-webkit-scrollbar {
-    width: 12px;
-    background-color: #F5F5F5; }
-
-  .scrollbar-danger::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
-    background-color: #FF0000; }
-
-.square::-webkit-scrollbar-track {
-border-radius: 0 !important; }
-
-.square::-webkit-scrollbar-thumb {
-border-radius: 0 !important; }
-
-.thin::-webkit-scrollbar {
-width: 6px; }
-
-.example-1 {
-position: relative;
-overflow-y: scroll;
-height: 200px; }
 
 
 /*-----------------
@@ -90,8 +37,6 @@ height: 200px; }
    overflow: hidden;
 
 }
-
-
 
 #service-page .container {
   width: 100%;
@@ -432,7 +377,7 @@ box-shadow: 2px 5px 20px -5px rgba(0, 0, 0, 0.6);
     height: 0;
     border-right: 10px solid transparent;
     border-left: 10px solid transparent;
-    border-top: 10px solid #FF0000;
+    border-top: 10px solid #ac1410ff;
     opacity: 0;
     -webkit-transition: 0.3s;
     transition: 0.3s;
@@ -446,7 +391,7 @@ box-shadow: 2px 5px 20px -5px rgba(0, 0, 0, 0.6);
 
 .mainmenu-area #primary-menu ul li.active a,
 .mainmenu-area #primary-menu ul li a:hover {
-    border-top: 3px solid #FF0000;
+    border-top: 3px solid #ac1410ff;
 }
 
 .mainmenu-area.affix {
@@ -628,7 +573,7 @@ margin-right: -30px;
   width: 0;
   height: 0;
   border: 500px solid transparent;
-  border-bottom: 751px solid #FF0000;
+  border-bottom: 751px solid #ac1410ff;
   position: relative;
   left: -500px;
   top: -950px;
@@ -643,7 +588,7 @@ margin-right: -30px;
   width: 0;
   height: 0;
   border: 500px solid transparent;
-  border-top: 750px solid #FF0000;
+  border-top: 750px solid #ac1410ff;
   z-index: -1;
 }
 
@@ -795,7 +740,7 @@ margin-top: -8px;
   left: 0;
   right: 0;
   content: '';
-  background-color: #FF0000;
+  background-color: #ac1410ff;
   opacity: 0.5;
   -webkit-transition: all 0.45s ease;
   transition: all 0.45s ease;
@@ -829,7 +774,7 @@ margin-top: -8px;
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #FF0000;
+  background-color: #ac1410ff;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
   content: '';
   opacity: 0.5;
@@ -1159,7 +1104,7 @@ preloader
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #ffffff;
+    background-color: #ac1410ff;
     -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
     animation: sk-foldCubeAngle 2.4s infinite linear both;
     -webkit-transform-origin: 100% 100%;

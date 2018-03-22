@@ -361,7 +361,7 @@
         width: 0;
         height: 0;
         border: 500px solid transparent;
-        border-bottom: 751px solid #FF0000;
+        border-bottom: 751px solid #ac1410ff;
         position: relative;
         left: -500px;
         top: -950px;
@@ -376,7 +376,7 @@
         width: 0;
         height: 0;
         border: 500px solid transparent;
-        border-top: 750px solid #FF0000;
+        border-top: 750px solid #ac1410ff;
         z-index: -1;
       }
 
@@ -726,7 +726,7 @@ color: #fff;
       width: 0;
       height: 0;
       border: 500px solid transparent;
-      border-bottom: 751px solid #FF0000;
+      border-bottom: 751px solid #ac1410ff;
       position: relative;
       left: -500px;
       top: -950px;
@@ -741,7 +741,7 @@ color: #fff;
       width: 0;
       height: 0;
       border: 500px solid transparent;
-      border-top: 750px solid #FF0000;
+      border-top: 750px solid #ac1410ff;
       z-index: -1;
     }
 
@@ -1085,7 +1085,7 @@ color: #fff;
       width: 0;
       height: 0;
       border: 500px solid transparent;
-      border-bottom: 751px solid #FF0000;
+      border-bottom: 751px solid #ac1410ff;
       position: relative;
       left: -500px;
       top: -950px;
@@ -1100,7 +1100,7 @@ color: #fff;
       width: 0;
       height: 0;
       border: 500px solid transparent;
-      border-top: 750px solid #FF0000;
+      border-top: 750px solid #ac1410ff;
       z-index: -1;
     }
 
@@ -1438,8 +1438,8 @@ color: #fff;
     .diamond-narrow {
       width: 0;
       height: 0;
-      border: 500px solid transparent;
-      border-bottom: 751px solid #FF0000;
+      border: 500px solid transpaac1410ffrent;
+      border-bottom: 751px solid #ac1410ff;
       position: relative;
       left: -500px;
       top: -950px;
@@ -1454,7 +1454,7 @@ color: #fff;
       width: 0;
       height: 0;
       border: 500px solid transparent;
-      border-top: 750px solid #FF0000;
+      border-top: 750px solid #ac1410ff;
       z-index: -1;
     }
 
