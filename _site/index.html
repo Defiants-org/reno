@@ -3,13 +3,16 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="author" content="John Doe">
-  <meta name="description" content="">
-  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <meta name="author" content="Gino Ludikhuyze">
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <!-- Title -->
-  <title>Startpagina</title>
+
+  <title>Reno Expert: Voor uw renovatie van A tot Z</title>
+
+
   <!-- Place favicon.ico in the root directory -->
   <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
   <link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
@@ -53,7 +56,7 @@
         <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-
+{% seo %}
 </head>
 
 <body data-spy="scroll" data-target="#primary-menu">
@@ -89,7 +92,7 @@
           <li><a href="#service-page">Stappenplan</a></li>
            <li><a href="#feature-page">Renoveren</a></li>
                     <li><a href="#contact-page">Contact</a></li>
-                    <li><a href="#contact-page">De Badkamer</a></li>
+                    <li><a href="https://bomengeduld.github.io/debadkamers/">De Badkamer</a></li>
                       <li><a href="faq.html">FAQ</a></li>
         </ul>
       </nav>
@@ -112,17 +115,7 @@
 
         <div class="col-xs-12 col-md-8 header-text">
 
-          <!--   <div class="card example-1 scrollbar-danger">
-                    <div class="card-body">
-            <h1 class="bahn1">Uw wensen op maat</h1>
 
-              <h3 class="h3">Voor uw renovatie van A tot Z</h3><br>
-              <p class="bahn2">
-    Uw woning renoveren van top tot  teen renoveren of uw oude badkamer een nieuwe look geven? Een dressing op maat inrichten? Reno Expert pakt alle opknapwerken aan, van sanitair over elektro, van verwarming tot domotica en brandinstallaties. Vraag hieronder een offerte of maak meteen een afspraak met onze experts. Misschien kunt u vanavond al beginnen met dagdromen over het nieuwe uitzicht.  Door onze jarenlange ervaring met het renoveren van huizen zijn wij inmiddels experts in kleine, middelgrote en grote interieurprojecten. Wij begeleiden u stap voor stap door het proces, van advies over ontwerp en materiaalkeuze tot realisatie. Uiteraard zonder uw budget uit het oog te verliezen. Uw wensen op maat. Daar gaan we voor.
-     </p>
-
-              <br> <a href="#contact-page" class="button white">OFFERTE</a>-->
-         <!-- /container -->
 
        <h1 class="bahn1">Uw wensen op maat</h1>
 
@@ -403,7 +396,7 @@ Ga voor uw droom, ook al heeft de ruimte die u wilt renoveren misschien niet de 
   <script src="js/navbar-collapse.js"></script>
   <script src="js/touchend.js"></script>
 
-<!--<script src="js/parallax.js"></script>-->
+
 <script src="js/swap.js"></script>
 
 
