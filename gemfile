@@ -11,7 +11,5 @@
 #   3)  In command of project type: "bundle install" & then "bundle update"
 # ---------------------------------------------------------------------------- #
 
-source 'https://rubygems.org'
-
 gem 'jekyll-seo-tag'
 gem 'jekyll-sitemap'
